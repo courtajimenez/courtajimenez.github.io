@@ -1,10 +1,1 @@
 
-# Site navigation links
-- title: Home
-  url: /
-
-- title: about
-  url: /about/
-
-- title: cv
-  url: /cv/
