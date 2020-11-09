@@ -1,2 +1,0 @@
-# courtneyannjimenez.github.io
-website
