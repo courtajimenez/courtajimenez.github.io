@@ -1,5 +1,7 @@
+---
 layout: page
 title: "cv"
-permalink: https://courtneyannjimenez.github.io/cv
+permalink: /cv/
+---
 
 cv
