@@ -10,7 +10,7 @@ github_username:  courtneyannjimenez
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plug-ins:
   - jekyll-feed
 
