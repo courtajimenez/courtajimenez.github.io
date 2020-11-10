@@ -5,4 +5,4 @@
 layout: home
 ---
 
-headshot.
+![useful image]({{ site.url }}/assets/IMG_1112.jpeg)
