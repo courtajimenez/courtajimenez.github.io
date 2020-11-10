@@ -5,4 +5,4 @@
 layout: home
 ---
 
-![useful image]({{ site.url }}/assets/IMG_1112.jpeg)
+![useful image](http://courtneyannjimenez.github.io/assets/IMG_1112.jpeg)
