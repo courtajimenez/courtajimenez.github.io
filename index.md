@@ -1,6 +1,6 @@
 ---
 layout: page
-excerpt: "About Me..."
+title: "home"
 ---
 
-Graduate Student at Dartmouth College.
+home
