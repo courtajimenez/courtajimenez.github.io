@@ -4,4 +4,4 @@ title: "cv"
 permalink: /cv/
 ---
 
-https://docs.google.com/viewer?url=http://courtneyannjimenez.github.io/docs/CV_Jimenez.pdf
+[CV_Jimenez.pdf](http://courtneyannjimenez.github.io/docs/CV_Jimenez.pdf)
