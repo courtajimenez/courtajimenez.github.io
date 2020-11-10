@@ -5,4 +5,3 @@ permalink: /contact/
 ---
 
 courtneyannjimenez@gmail.com
-@courtajimenez
