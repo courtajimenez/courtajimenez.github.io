@@ -4,4 +4,4 @@ title: "contact"
 permalink: /contact/
 ---
 
-courtneyannjimenez@gmail.com
+Please feel free to email me at courtneyannjimenez@gmail.com
