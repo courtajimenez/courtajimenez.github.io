@@ -1,4 +1,4 @@
-# Site settings
+# site settings
 title: Courtney A. Jimenez
 email: courtneyannjimenez@gmail.com
 description: >
@@ -8,20 +8,11 @@ url: "http://courtneyannjimenez.github.io" # the base hostname & protocol for yo
 twitter_username: courtajimenez
 github_username:  courtneyannjimenez
 
-# Build settings
+# build settings
 markdown: kramdown
 theme: minima
-plug-ins:
+gems:
   - jekyll-feed
-
 exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
    - Gemfile
    - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
