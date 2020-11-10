@@ -4,4 +4,4 @@ title: "research"
 permalink: /research/
 ---
 
-research
+social memory
