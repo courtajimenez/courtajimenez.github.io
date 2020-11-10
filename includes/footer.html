@@ -13,14 +13,15 @@
           </a>
         </p>
       {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
+         <ul class="contact-list">
+            <li class="p-name">
+            {%- if site.twitter -%}
+               <li><a href="https://www.twitter.com/in/{{ courtajimenez }}">
+               <svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">{{site.author}}</span></a></li>
+            {%- else -%}
+               {{ site.author | escape }}
+            {%- endif -%}
+         </ul>
       {%- endif %}
       </div>
       <div class="footer-col">
