@@ -4,7 +4,7 @@ title: "contact"
 permalink: /contact/
 ---
 
-email: courtney.a.jimenez.gr@dartmouth.edu
+Courtney.A.Jimenez.GR@dartmouth.edu
 
 Room 240\
 6207 Moore Hall\
