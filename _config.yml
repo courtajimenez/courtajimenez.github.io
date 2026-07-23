@@ -6,7 +6,7 @@ url: "http://courtajimenez.github.io" # the base hostname & protocol for your si
 github_username: courtajimenez
 linkedin_username: courtajimenez
 twitter_username: courtajimenez
-email_username: courtajimenez@gmail.com
+email: courtajimenez@gmail.com
 
 # build settings
 markdown: kramdown
