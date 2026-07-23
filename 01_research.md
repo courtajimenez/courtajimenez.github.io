@@ -8,6 +8,7 @@ meta-og:title: Projects
 meta-og:type: website
 meta-og:url: http://courtajimenez.github.io/research/
 meta-viewport: width=device-width, initial-scale=1
+title: Research
 ---
 
 ## Reinforcement learning underlies social connection and memory in a friendship decision-making task.
