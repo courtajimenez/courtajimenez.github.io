@@ -18,4 +18,4 @@ permalink: /Resume/
 <embed src="http://courtneyannjimenez.github.io/docs/Resume_Jimenez.pdf" width="720" height="550" 
  type="application/pdf">
 
-[Download Resume (PDF)](/docs/Resume_Jimenez.pdf
+[Download Resume (PDF)](/docs/Resume_Jimenez.pdf)
