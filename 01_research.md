@@ -1,14 +1,7 @@
 ---
-canonical: http://courtajimenez.github.io/research/
-meta-author: Courtney A. Jimenez
-meta-generator: Jekyll v3.10.0
-meta-og:locale: en_US
-meta-og:site_name: Courtney A. Jimenez
-meta-og:title: Projects
-meta-og:type: website
-meta-og:url: http://courtajimenez.github.io/research/
-meta-viewport: width=device-width, initial-scale=1
+layout: page
 title: Research
+permalink: /research
 ---
 
 ## Reinforcement learning underlies social connection and memory in a friendship decision-making task.
