@@ -5,4 +5,6 @@
 layout: home
 ---
 
-![useful image](http://courtajimenez.github.io/assets/IMG_1112.jpeg)
+
+
+[useful image](http://courtajimenez.github.io/assets/IMG_3514.HEIC)
