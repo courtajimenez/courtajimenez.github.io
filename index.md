@@ -5,8 +5,9 @@
 layout: home
 ---
 
-<img src="http://courtajimenez.github.io/assets/IMG_3514.HEIC" width="150" height="150"/>
+### About.
 
+<img src="http://courtajimenez.github.io/assets/IMG_3514.HEIC" width="150" height="150"/>
 
 Courtney A. Jimenez, Ph.D., is a research scientist working at the intersection of computational social cognition and social cognitive neuroscience.
 
