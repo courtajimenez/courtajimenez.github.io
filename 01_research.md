@@ -4,4 +4,6 @@ title: "Research"
 permalink: /research/
 ---
 
-Courtney is currently researching the neural bases of social learning and memory in the [Columbia Social Neuroscience Lab](http://columbiasocialneurosciencelab.com/) with [Dr. Meghan Meyer](https://scholar.google.com/citations?user=4tyQoi0AAAAJ&hl=en).
+### Reinforcement learning underlies social connection and memory in a friendship decision-making task
+
+### The dorsomedial prefrontal cortex prioritizes social learning during rest
