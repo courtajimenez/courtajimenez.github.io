@@ -19,5 +19,5 @@ permalink: /Resume/
 
 [Download Resume (PDF)](/docs/Resume_Jimenez.pdf)
 
-
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vRUvvBKPfZYV0a4OmCSBVafkiyw6BX5MdiFSA6AQ0DYwFDRvtER-f9F0ADAh5faig/pub?embedded=true"></iframe>
+<embed src="http://courtneyannjimenez.github.io/docs/Resume_Jimenez.pdf" width="720" height="550" 
+ type="application/pdf">
