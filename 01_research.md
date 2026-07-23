@@ -10,7 +10,6 @@ meta-og:url: http://courtajimenez.github.io/research/
 meta-twitter:card: summary
 meta-twitter:title: Research
 meta-viewport: width=device-width, initial-scale=1
-title: Research
 ---
 
 ## Projects.
