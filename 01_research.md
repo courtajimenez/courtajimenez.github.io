@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Research.
 permalink: /research
 ---
 ### Reinforcement learning underlies social connection and memory in a friendship decision-making task.
