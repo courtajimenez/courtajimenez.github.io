@@ -11,10 +11,7 @@ meta-twitter:card: summary
 meta-twitter:title: Resumes
 meta-viewport: width=device-width, initial-scale=1
 layout: page
-title: Resume
 permalink: /Resume/
 ---
 
  <embed src="/docs/Resume_Jimenez.pdf" width="100%" height="900" type="application/pdf">
-
-[Download Resume (PDF)](/docs/Resume_Jimenez.pdf)
