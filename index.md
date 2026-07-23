@@ -3,10 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: home
+title: About
 ---
-
-### About.
 
 <img src="http://courtajimenez.github.io/assets/IMG_3514.HEIC" width="150" height="150"/>
 
