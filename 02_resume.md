@@ -8,7 +8,7 @@ meta-og:title: Resume
 meta-og:type: website
 meta-og:url: http://courtajimenez.github.io/resume/
 meta-twitter:card: summary
-meta-twitter:title: Resumes
+meta-twitter:title: Resume
 meta-viewport: width=device-width, initial-scale=1
 ---
 
