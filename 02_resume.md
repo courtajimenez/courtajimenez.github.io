@@ -15,8 +15,6 @@ title: Resume
 permalink: /Resume/
 ---
 
-# Resume
-
 [Download Resume (PDF)](/docs/Resume_Jimenez.pdf)
 
 <embed src="http://courtneyannjimenez.github.io/docs/Resume_Jimenez.pdf" width="720" height="550" 
