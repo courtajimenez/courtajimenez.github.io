@@ -7,8 +7,6 @@ meta-og:site_name: Courtney A. Jimenez
 meta-og:title: Projects
 meta-og:type: website
 meta-og:url: http://courtajimenez.github.io/research/
-meta-twitter:card: summary
-meta-twitter:title: Research
 meta-viewport: width=device-width, initial-scale=1
 ---
 
