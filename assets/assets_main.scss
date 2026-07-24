@@ -1,0 +1,407 @@
+---
+---
+
+// =============================================================
+// 1. Design tokens
+// =============================================================
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --surface-alt: #f1f5f9;
+  --text: #0f172a;
+  --text-muted: #334155;
+  --border: #cbd5e1;
+  --brand: #1d4ed8;
+  --brand-hover: #1e40af;
+  --focus: #f59e0b;
+  --radius: 14px;
+
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+
+  --max-content: 72rem;
+  --measure: 68ch;
+}
+
+$breakpoint-mobile: 48rem;
+
+// =============================================================
+// 2. Shared patterns (placeholders)
+// =============================================================
+// Reusable "pill" shape used by nav links, project link-buttons, skill tags
+%pill {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+}
+
+// Reusable hover/focus treatment for outlined interactive pills
+// (project links, social icons)
+%pill-outline-interactive {
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  text-decoration: none;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--brand-hover);
+    border-color: var(--brand);
+    background: #eff6ff;
+  }
+}
+
+// Reusable solid brand-colored button (primary CTAs)
+%button-solid {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--brand-hover);
+    border-color: var(--brand-hover);
+    color: #fff;
+  }
+}
+
+// =============================================================
+// 3. Base / reset
+// =============================================================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: linear-gradient(180deg, #eef3ff 0%, var(--bg) 320px);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--brand);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+
+  &:hover {
+    color: var(--brand-hover);
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+// =============================================================
+// 4. Layout primitives
+// =============================================================
+.container {
+  width: min(var(--max-content), calc(100% - (2 * var(--space-4))));
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+
+  &:focus-visible {
+    left: var(--space-3);
+    top: var(--space-3);
+    z-index: 1000;
+    background: var(--text);
+    color: #fff;
+    padding: var(--space-2) var(--space-3);
+    border-radius: 0.5rem;
+  }
+}
+
+// =============================================================
+// 5. Header & navigation
+// =============================================================
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.35);
+  background: rgba(248, 250, 252, 0.82);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-3) 0;
+  }
+}
+
+.site-title {
+  font-size: clamp(1.1rem, 1rem + 0.75vw, 1.4rem);
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-1);
+
+  a {
+    @extend %pill;
+    min-height: 2.625rem;
+    padding: 0.35rem 0.85rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--surface-alt);
+      color: var(--text);
+    }
+
+    &[aria-current="page"] {
+      color: var(--text);
+      background: #dbeafe;
+    }
+  }
+
+  &__cta {
+    @extend %button-solid;
+  }
+}
+
+// =============================================================
+// 6. Main content shell
+// =============================================================
+.site-main {
+  padding: var(--space-5) 0 var(--space-6);
+}
+
+.content-shell {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: clamp(var(--space-4), 1.25rem + 1.25vw, var(--space-6));
+  box-shadow: 0 15px 40px rgba(2, 6, 23, 0.06);
+
+  > * {
+    margin-top: 0;
+  }
+}
+
+// =============================================================
+// 7. Typography
+// =============================================================
+h1,
+h2,
+h3,
+h4 {
+  color: var(--text);
+  line-height: 1.25;
+  margin: var(--space-5) 0 var(--space-2);
+  text-wrap: balance;
+}
+
+h1 { font-size: clamp(2rem, 1.65rem + 1.6vw, 2.85rem); }
+h2 { font-size: clamp(1.45rem, 1.2rem + 0.95vw, 2rem); }
+h3 { font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem); }
+
+p,
+li {
+  max-width: var(--measure);
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 var(--space-3);
+}
+
+.tagline {
+  font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
+  color: var(--text-muted);
+  font-weight: 600;
+  margin: -0.5rem 0 var(--space-4);
+}
+
+// =============================================================
+// 8. Homepage profile image
+// =============================================================
+.profile-image {
+  display: block;
+  width: min(250px, 100%);
+  margin: 0 0 var(--space-4);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+// =============================================================
+// 9. Skills page
+// =============================================================
+.skills-group {
+  margin: 0 0 var(--space-4);
+
+  h3 {
+    margin: 0 0 var(--space-2);
+  }
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  padding: 0;
+  margin: 0 0 var(--space-3);
+  list-style: none;
+
+  li {
+    @extend %pill;
+    max-width: none;
+    background: var(--surface-alt);
+    border: 1px solid var(--border);
+    padding: 0.3rem 0.85rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+}
+
+// =============================================================
+// 10. Project case studies
+// =============================================================
+.project {
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--border);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.project-meta {
+  color: var(--text-muted);
+  font-weight: 600;
+  margin: 0 0 var(--space-3);
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: var(--space-3) 0;
+
+  a {
+    @extend %pill;
+    @extend %pill-outline-interactive;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--text);
+
+    &.primary {
+      @extend %button-solid;
+    }
+  }
+}
+
+// =============================================================
+// 11. Embedded PDFs
+// =============================================================
+embed {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 22rem;
+  margin: 0 0 var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: #fff;
+}
+
+// =============================================================
+// 12. Footer
+// =============================================================
+.site-footer {
+  padding: 0 0 var(--space-6);
+
+  &__inner {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    text-align: center;
+  }
+
+  &__text {
+    margin: 0 0 var(--space-2);
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2);
+
+  a {
+    @extend %pill;
+    @extend %pill-outline-interactive;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+
+// =============================================================
+// 13. Responsive: mobile
+// =============================================================
+@media (max-width: $breakpoint-mobile) {
+  .site-header {
+    position: static;
+
+    &__inner {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: var(--space-3) 0;
+    }
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .container {
+    width: min(var(--max-content), calc(100% - (2 * var(--space-3))));
+  }
+
+  embed {
+    min-height: 18rem;
+  }
+}
