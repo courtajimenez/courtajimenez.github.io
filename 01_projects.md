@@ -4,7 +4,7 @@ title: Projects.
 permalink: /projects
 ---
 
-<div class="project">
+<div class="project" markdown="1">
 
 ## Reinforcement Learning Constructs Shape Subjective Connection and Social Memory
 
@@ -19,13 +19,13 @@ permalink: /projects
 - Individual differences in fitted RL parameters (learning rate *α*, inverse temperature *β*) related to participants' real-world social experience
 - Memory was better for moments of *lower* subjective connection and *higher* social reward value — suggesting affectively surprising or motivationally salient moments are prioritized in memory
 
-<div class="project-links">
+<div class="project-links" markdown="1">
 <a class="primary" href="https://github.com/courtajimenez" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>&nbsp;Code</a>
 </div>
 
 </div>
 
-<div class="project">
+<div class="project" markdown="1">
 
 ## The Dorsomedial Prefrontal Cortex Prioritizes Social Learning During Rest
 
@@ -40,7 +40,7 @@ permalink: /projects
 - Social consolidation in the DMPFC was specific to *early* rest, while non-social consolidation in the VLPFC showed no such early-rest specificity
 - Findings support the DMPFC — a key default-network node — as prioritizing social information consolidation, consistent with the brain being "social by default"
 
-<div class="project-links">
+<div class="project-links" markdown="1">
 <a class="primary" href="https://github.com/courtajimenez" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>&nbsp;Code</a>
 </div>
 
