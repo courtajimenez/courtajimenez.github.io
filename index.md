@@ -5,8 +5,8 @@
 layout: home
 ---
 
-<h1>Courtney A. Jimenez, Ph.D.</h1>
+
 
 <img class="profile-image" src="/assets/IMG_3514.jpg" width="250" height="250"/>
 
-Courtney A. Jimenez, Ph.D., is a research scientist working at the intersection of computational social cognition and social cognitive neuroscience.
+Courtney is a research scientist working at the intersection of computational social cognition and social cognitive neuroscience.
