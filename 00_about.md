@@ -4,7 +4,7 @@ title: About.
 permalink: /about
 ---
 
-Courtney A. Jimenez, Ph.D., is a research scientist working at the intersection of computational social cognition and social cognitive neuroscience.
+Courtney is a research scientist working at the intersection of computational social cognition and social cognitive neuroscience.
 
 
 She recently completed her Ph.D. in Psychology at Columbia University, where she conducted research in the Columbia Social Neuroscience Lab studying the cognitive and neural bases of social learning and memory using high-dimensional fMRI neuroimaging analysis and cognitive computational modeling.
