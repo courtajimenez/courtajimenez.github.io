@@ -21,6 +21,7 @@ permalink: /projects
 
 <div class="project-links">
 <a class="primary" href="https://github.com/courtajimenez" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>&nbsp;Code</a>
+</div>
 
 </div>
 
@@ -41,5 +42,6 @@ permalink: /projects
 
 <div class="project-links">
 <a class="primary" href="https://github.com/courtajimenez" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>&nbsp;Code</a>
-<a href="/docs/SANS2024_Poster.pdf" target="_blank" rel="noopener">View/Download Poster (PDF)</a>
+</div>
+
 </div>
