@@ -9,7 +9,7 @@ email: courtajimenez@gmail.com
 # explicit nav order (used by _layouts/default.html instead of alphabetical sort)
 nav_order:
   - /about
-  - /research
+  - /projects
   - /resume
 
 # build settings
