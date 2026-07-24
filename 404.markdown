@@ -1,9 +1,6 @@
 ---
 layout: default
 permalink: /404.html
-title: Page Not Found
 ---
 
-Uh oh, this page doesn't exist.
-
-The page you're looking for may have moved or been removed. Try heading back to the <a href="{{ '/' | relative_url }}">homepage</a>.
+Uh oh, this page doesn't exist. Try heading back to the <a href="{{ '/' | relative_url }}">homepage</a>.
