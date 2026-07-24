@@ -1,5 +1,0 @@
-Skip to content
-{{ site.title | escape }}
-{% assign current_url = page.url | default: '/' %} Home {% for path in site.nav_order %} {% assign item = site.pages | where_exp: "p", "p.url == path" | first %} {% unless item %} {% assign item = site.pages | where_exp: "p", "p.url == path | append: '/'" | first %} {% endunless %} {% if item %} {{ item.title | escape }} {% endif %} {% endfor %}
-{{ content }}
-{% include footer.html %}
