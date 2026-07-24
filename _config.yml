@@ -6,6 +6,12 @@ url: "http://courtajimenez.github.io" # the base hostname & protocol for your si
 username: courtajimenez
 email: courtajimenez@gmail.com
 
+# explicit nav order (used by _layouts/default.html instead of alphabetical sort)
+nav_order:
+  - /about
+  - /research
+  - /resume
+
 # build settings
 markdown: kramdown
 theme: minima
