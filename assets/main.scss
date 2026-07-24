@@ -1,0 +1,29 @@
+---
+---
+@import "minima";
+
+.site-footer {
+  text-align: center;
+  border-top: 0;
+  padding: 1.25rem 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.social-icons a:hover,
+.social-icons a:focus-visible {
+  opacity: 0.75;
+}
