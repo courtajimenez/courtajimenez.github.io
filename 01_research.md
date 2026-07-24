@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research.
-permalink: /research
+title: Projects.
+permalink: /projects
 ---
 
 ## Reinforcement Learning Constructs Shape Subjective Connection and Social Memory from Moment-to-Moment Social Experience
