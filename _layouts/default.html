@@ -16,7 +16,7 @@
         <nav class="site-nav" aria-label="Primary">
           {% assign current_url = page.url | default: '/' %}
           <a href="{{ '/' | relative_url }}"{% if current_url == '/' %} aria-current="page"{% endif %}>Home</a>
-          {% assign nav_pages = site.pages | where_exp: "item", "item.title and item.url != '/404.html'" | sort: "title" %}
+          {% assign nav_pages = site.pages | where_exp: "item", "item.title != nil" | where_exp: "item", "item.url != '/404.html'" | sort: "title" %}
           {% for item in nav_pages %}
             {% unless item.url == '/' %}
               <a href="{{ item.url | relative_url }}"{% if current_url == item.url %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>
