@@ -4,6 +4,6 @@ permalink: /404.html
 title: Page Not Found
 ---
 
-<h1>Uh oh, this page doesn't exist.</h1>
+Uh oh, this page doesn't exist.
 
-<p>The page you're looking for may have moved or been removed. Try heading back to the <a href="{{ '/' | relative_url }}">homepage</a>.</p>
+The page you're looking for may have moved or been removed. Try heading back to the <a href="{{ '/' | relative_url }}">homepage</a>.
